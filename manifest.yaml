@@ -52,7 +52,7 @@ spec:
           livenessProbe:
             httpGet:
               host: localhost
-              port: 
+              port: 8000
               path: /
             initialDelaySeconds: 5
             periodSeconds: 5
@@ -79,13 +79,13 @@ spec:
   ingressClassName: nginx #???
   tls:
     - hosts:
-        - 
+        - test.com
       secretName: test-app-tls-secret
   rules:
-    - host: 
+    - host: test.com
       http:
         paths:
-          - path: 
+          - path: /
             pathType: Prefix
             backend:
               service:
