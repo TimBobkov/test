@@ -1,0 +1,69 @@
+---
+# Source: base-dotnet8-chart/templates/service.yaml
+apiVersion: v1
+kind: Service
+metadata:
+  name: test-app-service
+  labels:
+    app: test-app
+spec:
+  ports:
+    - name: http
+      port: 8000
+  selector:
+    app: test-app
+  type: ClusterIP
+---
+# Source: base-dotnet8-chart/templates/deployment.yaml
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: test-app
+  labels:
+    app: test-app
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: test-app
+  template:
+    metadata:
+      labels:
+        app: test-app
+    spec:
+      containers:
+        - name: service
+          image: crccheck/hello-world
+          ports:
+            - containerPort: 8000
+          env:
+            - name: TEST_ENV
+              value: test
+          readinessProbe:
+            httpGet:
+              host: localhost
+              port: 8000
+              path: /
+            initialDelaySeconds: 5
+            periodSeconds: 5
+            timeoutSeconds: 3
+            failureThreshold: 5
+            successThreshold: 1
+          livenessProbe:
+            httpGet:
+              host: localhost
+              port: 
+              path: /
+            initialDelaySeconds: 5
+            periodSeconds: 5
+            timeoutSeconds: 3
+            failureThreshold: 5
+            successThreshold: 1
+          resources:
+            requests:
+              cpu: 100m
+              memory: 100M
+            limits:
+              cpu: 200m
+              memory: 200M
+          restartPolicy: Always
