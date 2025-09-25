@@ -28,34 +28,34 @@ spec:
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 8080
----
-kind: Deployment
-apiVersion: apps/v1
-metadata:
-  name: test2
-  namespace: default
-  annotations:
-    event.toolkit.fluxcd.io/deploymentId: another-value
-spec:
-  replicas: 1
-  selector:
-    matchLabels:
-      app: test2
-  template:
-    metadata:
-      labels:
-        app: test2
-    spec:
-      containers:
-        - name: test
-          image: ubuntu
-          args:
-            - sh
-            - -c
-            - |
-              while true; do
-                sleep 100
-              done
-          imagePullPolicy: IfNotPresent
-          ports:
-            - containerPort: 8080
+# ---
+# kind: Deployment
+# apiVersion: apps/v1
+# metadata:
+#   name: test2
+#   namespace: default
+#   annotations:
+#     event.toolkit.fluxcd.io/deploymentId: another-value
+# spec:
+#   replicas: 1
+#   selector:
+#     matchLabels:
+#       app: test2
+#   template:
+#     metadata:
+#       labels:
+#         app: test2
+#     spec:
+#       containers:
+#         - name: test
+#           image: ubuntu
+#           args:
+#             - sh
+#             - -c
+#             - |
+#               while true; do
+#                 sleep 100
+#               done
+#           imagePullPolicy: IfNotPresent
+#           ports:
+#             - containerPort: 8080
