@@ -10,6 +10,7 @@ spec:
   targetNamespace: flux-system
   path: ./resources
   prune: true
+  wait: true
   sourceRef:
     kind: GitRepository
     name: test
@@ -19,3 +20,5 @@ spec:
       name: test
       namespace: default
   timeout: 1m
+  exclusionList:
+    - ".*ReconciliationSucceeded*"
