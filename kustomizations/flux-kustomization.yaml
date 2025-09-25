@@ -16,6 +16,6 @@ spec:
   healthChecks:
     - apiVersion: apps/v1
       kind: Deployment
-      name: '*'
+      name: test
       namespace: default
   timeout: 1m
