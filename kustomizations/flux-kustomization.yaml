@@ -13,9 +13,9 @@ spec:
   sourceRef:
     kind: GitRepository
     name: test
-  # healthChecks:
-  #   - apiVersion: apps/v1
-  #     kind: Deployment
-  #     name: test
-  #     namespace: default
+  healthChecks:
+    - apiVersion: apps/v1
+      kind: '*'
+      name: '*'
+      namespace: default
   timeout: 1m
