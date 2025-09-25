@@ -10,8 +10,8 @@ spec:
   exclusionList:
     - reson.succeeded
   eventSources:
-    - kind: GitRepository
-      name: test
+    # - kind: GitRepository
+    #   name: test
     - kind: Kustomization
       name: '*'
       namespace: default
