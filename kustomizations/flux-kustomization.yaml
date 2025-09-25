@@ -19,5 +19,9 @@ spec:
       kind: Deployment
       name: test
       namespace: default
+    - apiVersion: apps/v1
+      kind: Deployment
+      name: test2
+      namespace: default
   timeout: 1m
   
