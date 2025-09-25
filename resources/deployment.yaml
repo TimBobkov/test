@@ -23,7 +23,7 @@ spec:
             - -c
             - |
               while true; do
-                sleep 10
+                sleep 100
               done
           imagePullPolicy: IfNotPresent
           ports:
@@ -54,7 +54,7 @@ spec:
             - -c
             - |
               while true; do
-                sleep 10
+                sleep 100
               done
           imagePullPolicy: IfNotPresent
           ports:
