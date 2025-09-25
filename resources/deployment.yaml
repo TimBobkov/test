@@ -26,3 +26,5 @@ spec:
                 sleep 10
               done
           imagePullPolicy: IfNotPresent
+          ports:
+            - containerPort: 8080 
