@@ -1,0 +1,25 @@
+kind: Deployment
+apiVersion: apps/v1
+metadata:
+  name: test
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: test
+  template:
+    metadata:
+      labels:
+        app: test
+    spec:
+      containers:
+        - name: test
+          image: ubuntu
+          args:
+            - sh
+            - -c
+            - |
+              while true; do
+                sleep 10
+              done
+          imagePullPolicy: IfNotPresent

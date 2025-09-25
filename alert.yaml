@@ -1,0 +1,15 @@
+apiVersion: notification.toolkit.fluxcd.io/v1beta3
+kind: Alert
+metadata:
+  name: test
+  namespace: default
+spec:
+  providerRef:
+    name: test
+  eventSeverity: info
+  eventSources:
+    - kind: GitRepository
+      name: test
+    - kind: Kustomization
+      name: '*'
+      namespace: default
