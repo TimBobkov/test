@@ -2,7 +2,7 @@ apiVersion: kustomize.toolkit.fluxcd.io/v1
 kind: Kustomization
 metadata:
   name: test
-  namespace: flux-system
+  namespace: default
 spec:
   interval: 1m
   targetNamespace: flux-system
@@ -15,5 +15,5 @@ spec:
     - apiVersion: apps/v1
       kind: Deployment
       name: test
-      namespace: flux-system
+      namespace: default
   timeout: 1m
