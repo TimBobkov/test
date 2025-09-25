@@ -8,7 +8,7 @@ spec:
     name: test
   eventSeverity: info
   exclusionList:
-    - reson.ReconciliationSucceeded
+    - reson.succeeded
   eventSources:
     - kind: GitRepository
       name: test
