@@ -21,4 +21,4 @@ spec:
       namespace: default
   timeout: 1m
   exclusionList:
-    - ".*ReconciliationSucceeded*"
+    - "*.*Reconciliation finished*"
