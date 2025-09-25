@@ -20,5 +20,4 @@ spec:
       name: test
       namespace: default
   timeout: 1m
-  exclusionList:
-    - ".*Reconciliation finished*"
+  

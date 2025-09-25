@@ -8,10 +8,11 @@ spec:
     name: test
   eventSeverity: info
   exclusionList:
-    - reson.succeeded
+    - "*.*Reconciliation finished*"
   eventSources:
     # - kind: GitRepository
     #   name: test
     - kind: Kustomization
       name: test
       namespace: default
+  
