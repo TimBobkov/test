@@ -23,5 +23,9 @@ spec:
       kind: Deployment
       name: test2
       namespace: default
+  healthCheckExprs:
+    - apiVersion: promise.connellsgroup.co.uk/v1alpha1
+      kind: ServiceKustomization
+      current: metadata.namespace == "default" && metadata.name == "example-service-kustomization" && status.conditions.all(e, e.status == "True")
   timeout: 1m
   
