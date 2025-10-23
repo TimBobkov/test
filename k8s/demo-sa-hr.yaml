@@ -4,7 +4,7 @@ metadata:
   name: healthrecord-demo-sa
 data:
   state: error
-  lastRun: 1761255921
+  lastRun: 1761255952
   details:
     workspace: demo-sa
     message: "observe failed: cannot diff (i.e. plan) Terraform configuration: Terraform encountered an error. Summary: name (\"toobignameforsatobecreatedforsure\") can only consist of lowercase letters and numbers, and must be between 3 and 24 characters long. To see the full error run: echo \"H4sIAAAAAAAA/3SPsWrEQAxE+/2KYasEjAsnXGFIme8w8p7sW7AlkLQxydcHO21uujfMKyZ9mqmNENoZLzlU57qesKg5hc5cjCn4fnIzzq8oJFDZvlFUvHpAF2x6sBVyxsYRbA6SO6TtM5t3F+zNAzNj5jiYBW9XO7yjPMioXNKmsqYEHDUeoJ9mbPvkoUYrT1SKNoneqUuACnaq0seCrQpjuHWoAmPXZoWRn+gZ2SmPCRhuI/B3/L984Iusd5rORUq/AAAA//8BAAD//wMGk0kpAQAA\" | base64 -d | gunzip"
