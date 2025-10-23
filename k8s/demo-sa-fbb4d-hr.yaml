@@ -4,6 +4,6 @@ metadata:
   name: healthrecord-demo-sa-fbb4d
 data:
   state: pending
-  lastRun: 1761254848
+  lastRun: 1761254866
   details:
     workspace: demo-sa-fbb4d
