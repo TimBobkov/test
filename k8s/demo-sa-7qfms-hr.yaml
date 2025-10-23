@@ -1,0 +1,9 @@
+apiVersion: platform.example.org/v1alpha1
+kind: HealthRecord
+metadata:
+  name: healthrecord-demo-sa-7qfms
+data:
+  state: pending
+  lastRun: 1761255299
+  details:
+    workspace: demo-sa-7qfms
