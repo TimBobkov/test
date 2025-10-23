@@ -4,6 +4,6 @@ metadata:
   name: healthrecord-demo-sa-zqz94
 data:
   state: pending
-  lastRun: 1761255474
+  lastRun: 1761255506
   details:
     workspace: demo-sa-zqz94
