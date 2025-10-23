@@ -1,9 +1,0 @@
-apiVersion: platform.example.org/v1alpha1
-kind: HealthRecord
-metadata:
-  name: healthrecord-demo-sa-zqz94
-data:
-  state: ready
-  lastRun: 1761255631
-  details:
-    workspace: demo-sa-zqz94
