@@ -3,7 +3,8 @@ kind: HealthRecord
 metadata:
   name: "healthrecord-demo-sa"
 data:
-  state: unknown
-  lastRun: 1761309901
+  state: unhealthy
+  lastRun: 1761309980
   details:
     workspace: "demo-sa"
+    message: Creating
