@@ -1,0 +1,9 @@
+apiVersion: platform.example.org/v1alpha1
+kind: HealthRecord
+metadata:
+  name: "healthrecord-demo-sa"
+data:
+  state: pending
+  lastRun: 1761308746
+  details:
+    workspace: "demo-sa"
