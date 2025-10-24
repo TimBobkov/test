@@ -4,6 +4,6 @@ metadata:
   name: "healthrecord-demo-sa"
 data:
   state: ready
-  lastRun: 1761309993
+  lastRun: 1761311822
   details:
     workspace: "demo-sa"
