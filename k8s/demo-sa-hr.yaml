@@ -4,7 +4,7 @@ metadata:
   name: "healthrecord-demo-sa"
 data:
   state: error
-  lastRun: 1761308825
+  lastRun: 1761308909
   details:
     workspace: "demo-sa"
-    message: "cannot create or update connection secret: existing secret is not controlled by UID \"bee04141-bf06-4466-874a-d88f81c48b6f\""
+    message: Creating
