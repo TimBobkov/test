@@ -3,8 +3,8 @@ kind: HealthRecord
 metadata:
   name: "healthrecord-demo-sa"
 data:
-  state: unhealthy
-  lastRun: 1761329913
+  state: ready
+  lastRun: 1761329926
   promiseRef:
     name: "some-name"
   resourceRef:
@@ -12,4 +12,3 @@ data:
     namespace: ls
   details:
     workspace: "demo-sa"
-    message: Creating
