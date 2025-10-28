@@ -4,7 +4,7 @@ metadata:
   name: "healthrecord-demo-sa"
 data:
   state: ready
-  lastRun: 1761650241
+  lastRun: 1761653788
   promiseRef:
     name: "some-name"
   resourceRef:
