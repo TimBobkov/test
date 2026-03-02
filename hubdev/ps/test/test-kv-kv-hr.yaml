@@ -1,0 +1,12 @@
+apiVersion: platform.kratix.io/v1alpha1
+data:
+  details:
+    message: Creating
+    resourceName: test
+    stage: deploy
+  lastRun: 1772471090
+  state: unhealthy
+kind: HealthRecord
+metadata:
+  name: healthrecord-test-kv-kv
+  namespace: ps
