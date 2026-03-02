@@ -4,7 +4,7 @@ data:
     message: Creating
     resourceName: test
     stage: deploy
-  lastRun: 1772472092
+  lastRun: 1772472152
   state: unhealthy
 kind: HealthRecord
 metadata:
