@@ -3,7 +3,7 @@ data:
   details:
     resourceName: test
     stage: deploy
-  lastRun: 1772472091
+  lastRun: 1772472092
   state: unknown
 kind: HealthRecord
 metadata:
