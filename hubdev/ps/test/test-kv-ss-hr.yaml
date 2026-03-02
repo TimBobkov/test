@@ -1,10 +1,11 @@
 apiVersion: platform.kratix.io/v1alpha1
 data:
   details:
+    message: unable to create client
     resourceName: test
     stage: deploy
-  lastRun: 1772488950
-  state: unknown
+  lastRun: 1772490309
+  state: unhealthy
 kind: HealthRecord
 metadata:
   name: healthrecord-test-kv-ss
