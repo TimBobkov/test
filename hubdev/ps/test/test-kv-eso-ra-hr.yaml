@@ -1,0 +1,11 @@
+apiVersion: platform.kratix.io/v1alpha1
+data:
+  details:
+    resourceName: test
+    stage: deploy
+  lastRun: 1772491214
+  state: unknown
+kind: HealthRecord
+metadata:
+  name: healthrecord-test-kv-eso-ra
+  namespace: ps
