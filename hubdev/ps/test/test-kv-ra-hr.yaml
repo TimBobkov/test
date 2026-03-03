@@ -3,7 +3,12 @@ data:
   details:
     resourceName: test-psdevtest3kv-crossplane-ra
     stage: deploy
-  lastRun: 1772551962
+  lastRun: 1772578968
+  promiseRef:
+    name: keyvault-poc
+  resourceRef:
+    name: test-keyvault-poc
+    namespace: ps
   state: ready
 kind: HealthRecord
 metadata:
