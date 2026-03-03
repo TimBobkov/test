@@ -5,9 +5,9 @@ data:
       create failed: async create failed: failed to create the resource: [{0 creating Key Vault (Subscription: "1839ab1a-51f5-46a6-a0dc-11389d9eff3e"
       Resource Group Name: "rnd"
       Key Vault Name: "psdevtest2kv"): performing CreateOrUpdate: vaults.VaultsClient#CreateOrUpdate: Failure sending request: StatusCode=0 -- Original Error: Code="ConflictError" Message="A vault with the same name already exists in deleted state. You need to either recover or purge existing key vault. Follow this link https://go.microsoft.com/fwlink/?linkid=2149745 for more information on soft delete."  []}]
-    resourceName: psdevtest2kv
+    resourceName: psdevtest3kv
     stage: deploy
-  lastRun: 1772551428
+  lastRun: 1772551489
   state: unhealthy
 kind: HealthRecord
 metadata:
