@@ -1,9 +1,9 @@
 apiVersion: platform.kratix.io/v1alpha1
 data:
   details:
-    resourceName: test
+    resourceName: test-psdevtest2kv-crossplane-ra
     stage: deploy
-  lastRun: 1772548549
+  lastRun: 1772549485
   state: unknown
 kind: HealthRecord
 metadata:
