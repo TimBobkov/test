@@ -3,9 +3,9 @@ data:
   details:
     message: '[Private Endpoint] environment[private_dns_zones] is missing/unknown.;
       [Private Endpoint] environment[private_endpoint_subnet_id] is missing/unknown.'
-    resourceName: <<UNKNOWN>>
+    resourceName: pe-psdev-test3-kv
     stage: deploy
-  lastRun: 1772553289
+  lastRun: 1772553608
   state: unhealthy
 kind: HealthRecord
 metadata:
