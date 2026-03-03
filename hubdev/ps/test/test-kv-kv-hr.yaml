@@ -1,11 +1,10 @@
 apiVersion: platform.kratix.io/v1alpha1
 data:
   details:
-    message: Creating
     resourceName: psdevtest3kv
     stage: deploy
-  lastRun: 1772551649
-  state: unknown
+  lastRun: 1772551867
+  state: ready
 kind: HealthRecord
 metadata:
   name: healthrecord-test-kv-kv
