@@ -3,8 +3,8 @@ data:
   details:
     resourceName: test-psdevtest2kv-crossplane-ra
     stage: deploy
-  lastRun: 1772549485
-  state: unknown
+  lastRun: 1772551428
+  state: unhealthy
 kind: HealthRecord
 metadata:
   name: healthrecord-test-kv-ra
