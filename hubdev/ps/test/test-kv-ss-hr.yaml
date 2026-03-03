@@ -1,0 +1,11 @@
+apiVersion: platform.kratix.io/v1alpha1
+data:
+  details:
+    resourceName: psdevtest3kv-secret-store
+    stage: deploy
+  lastRun: 1772551867
+  state: unhealthy
+kind: HealthRecord
+metadata:
+  name: healthrecord-test-kv-ss
+  namespace: ps
