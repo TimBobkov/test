@@ -3,8 +3,8 @@ data:
   details:
     resourceName: psdevtest3kv-secret-store
     stage: deploy
-  lastRun: 1772551867
-  state: unhealthy
+  lastRun: 1772552449
+  state: ready
 kind: HealthRecord
 metadata:
   name: healthrecord-test-kv-ss
