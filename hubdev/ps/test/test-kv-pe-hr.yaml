@@ -1,0 +1,11 @@
+apiVersion: platform.kratix.io/v1alpha1
+data:
+  details:
+    resourceName: pe-psdev-test3-kv
+    stage: deploy
+  lastRun: 1772552816
+  state: unhealthy
+kind: HealthRecord
+metadata:
+  name: healthrecord-test-kv-pe
+  namespace: ps
