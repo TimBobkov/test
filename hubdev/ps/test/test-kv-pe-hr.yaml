@@ -5,7 +5,12 @@ data:
       [Private Endpoint] environment[private_endpoint_subnet_id] is missing/unknown.'
     resourceName: pe-psdev-test3-kv
     stage: deploy
-  lastRun: 1772553608
+  lastRun: 1772578968
+  promiseRef:
+    name: keyvault-poc
+  resourceRef:
+    name: test-keyvault-poc
+    namespace: ps
   state: unhealthy
 kind: HealthRecord
 metadata:
