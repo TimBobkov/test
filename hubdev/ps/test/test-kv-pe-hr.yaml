@@ -1,9 +1,11 @@
 apiVersion: platform.kratix.io/v1alpha1
 data:
   details:
-    resourceName: pe-psdev-test3-kv
+    message: '[Private Endpoint] environment[private_dns_zones] is missing/unknown.;
+      [Private Endpoint] environment[private_endpoint_subnet_id] is missing/unknown.'
+    resourceName: <<UNKNOWN>>
     stage: deploy
-  lastRun: 1772552816
+  lastRun: 1772553289
   state: unhealthy
 kind: HealthRecord
 metadata:
