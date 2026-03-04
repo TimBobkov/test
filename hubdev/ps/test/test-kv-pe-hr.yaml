@@ -1,11 +1,13 @@
 apiVersion: platform.kratix.io/v1alpha1
 data:
   details:
-    message: '[Private Endpoint] environment[private_dns_zones] is missing/unknown.;
-      [Private Endpoint] environment[private_endpoint_subnet_id] is missing/unknown.'
+    message: '[Private Endpoint] environment[private_endpoint_subnet_id] is missing/unknown.;
+      [Private Endpoint] environment[private_dns_zones] is missing/unknown.; [Private
+      Endpoint] Exception while rendering Private Endpoint resource: unsupported operand
+      type(s) for +=: ''Value'' and ''Value'''
     resourceName: pe-psdev-test3-kv
     stage: deploy
-  lastRun: 1772578968
+  lastRun: 1772640885
   promiseRef:
     name: keyvault-poc
   resourceRef:
