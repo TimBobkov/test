@@ -1,12 +1,11 @@
 apiVersion: platform.kratix.io/v1alpha1
 data:
   details:
-    message: '[Private Endpoint] environment[private_endpoint_subnet_id] is missing/unknown.;
-      [Private Endpoint] Exception while rendering Private Endpoint resource: Invalid
-      key "name" for kind: string_value'
+    message: '[Private Endpoint] Exception while rendering Private Endpoint resource:
+      Invalid key "name" for kind: string_value'
     resourceName: pe-psdev-test3-kv
     stage: deploy
-  lastRun: 1772641092
+  lastRun: 1772641444
   promiseRef:
     name: keyvault-poc
   resourceRef:
