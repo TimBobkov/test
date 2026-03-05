@@ -1,16 +1,15 @@
 apiVersion: platform.kratix.io/v1alpha1
 data:
   details:
-    message: Creating
     resourceName: psdevtest4kv
     stage: deploy
-  lastRun: 1772751686
+  lastRun: 1772751847
   promiseRef:
     name: keyvault-poc
   resourceRef:
     name: test-keyvault-poc
     namespace: ps
-  state: unknown
+  state: ready
 kind: HealthRecord
 metadata:
   name: healthrecord-test-kv-kv
