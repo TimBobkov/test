@@ -1,0 +1,16 @@
+apiVersion: platform.kratix.io/v1alpha1
+data:
+  details:
+    resourceName: psdevtest4kv-secret-store
+    stage: deploy
+  lastRun: 1772751847
+  promiseRef:
+    name: keyvault-poc
+  resourceRef:
+    name: test-keyvault-poc
+    namespace: ps
+  state: unhealthy
+kind: HealthRecord
+metadata:
+  name: healthrecord-test-kv-ss
+  namespace: ps
