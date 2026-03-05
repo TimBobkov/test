@@ -3,13 +3,13 @@ data:
   details:
     resourceName: psdevtest4kv-secret-store
     stage: deploy
-  lastRun: 1772751847
+  lastRun: 1772751848
   promiseRef:
     name: keyvault-poc
   resourceRef:
     name: test-keyvault-poc
     namespace: ps
-  state: unhealthy
+  state: ready
 kind: HealthRecord
 metadata:
   name: healthrecord-test-kv-ss
