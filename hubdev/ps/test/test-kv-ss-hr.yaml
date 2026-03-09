@@ -3,7 +3,7 @@ data:
   details:
     resourceName: psdevtest4kv-secret-store
     stage: deploy
-  lastRun: 1773090699
+  lastRun: 1773090698
   promiseRef:
     name: keyvault-poc
   resourceRef:
