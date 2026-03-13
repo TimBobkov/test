@@ -1,15 +1,16 @@
 apiVersion: platform.kratix.io/v1alpha1
 data:
   details:
+    message: unable to create client
     resourceName: psdevtest4kv-secret-store
     stage: deploy
-  lastRun: 1773090698
+  lastRun: 1773373179
   promiseRef:
     name: keyvault-poc
   resourceRef:
     name: test-keyvault-poc
     namespace: ps
-  state: ready
+  state: unhealthy
 kind: HealthRecord
 metadata:
   name: healthrecord-test-kv-ss
